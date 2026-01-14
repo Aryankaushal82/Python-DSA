@@ -5,7 +5,7 @@ b=[]
 
 print(type(a))
 print(len(a))
-print(a[0])
+print(a[1])
 print(a.index(1))
 a.append(2)
 print(a)
