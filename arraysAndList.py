@@ -6,8 +6,8 @@ b=[]
 print(type(a))
 print(len(a))
 print(a[0])
-print(a.index(2))
-a.append(5)
+print(a.index(1))
+a.append(2)
 print(a)
 
 
