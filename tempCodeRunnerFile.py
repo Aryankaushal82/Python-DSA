@@ -1,8 +1,9 @@
-def linear_search(num,arr):
-    for i in range(len(arr)):
-        if(arr[i]==num):
-            return True,f"Element found at index {i}"
-    return False,"Element not found"
-a=[2,4,6,7,9]
-n=10
-print(linear_search(n,a))
+
+def linear_search(num,target):
+    for i in range(len(num)):
+      if num[i]==target:
+          return True
+      return False
+n=[1,2,3,45,66]
+t=66
+print(linear_search(n,t))   
