@@ -1,9 +1,10 @@
-
-def linear_search(num,target):
-    for i in range(len(num)):
-      if num[i]==target:
-          return True
-      return False
-n=[1,2,3,45,66]
-t=66
-print(linear_search(n,t))   
+d={1:"a",2:"b",3:"c"}
+# print(d.keys()) #it will print all the keys present in the dictionary
+# print(d.values())#it will print all the values present in the dictionary
+# print(d.items())#it will print all the key value pair present in the dictionary
+# for i in d.keys():
+#     print(d[i])
+for i in d.items():
+    print(i[0]) 
+# for i in d.values():
+#     print(i)   
