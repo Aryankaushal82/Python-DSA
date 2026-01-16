@@ -4,7 +4,7 @@ def sort_color(nums):
     r=len(nums)-1
     while m<=r:
         if nums[m]==0:
-            nums[m],nums[l]=nums[l],nums[m]
+            nums[m],nums[l]=nums[l],nums[m] ## swaping values in python 
             l+=1
             m+=1
         elif nums[m]==1:
