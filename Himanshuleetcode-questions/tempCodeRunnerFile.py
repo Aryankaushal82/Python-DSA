@@ -1,37 +1,18 @@
-# Given two strings s and t, return true if t is an anagram of s, and false otherwise.
-
- 
-
-# Example 1:
-
-# Input: s = "anagram", t = "nagaram"
-
-# Output: true
-
-# Example 2:
-
-# Input: s = "rat", t = "car"
-
-# Output: false
-
- 
-
-# Constraints:
-
-# 1 <= s.length, t.length <= 5 * 104
-# s and t consist of lowercase English letters.
- 
-
-# Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
-
-def isAnagram(s, t):
-    if len(s)!=len(t):
-        return False
-    freq1=[0]*26
-    freq2=[0]*26
-    for ch in s:
-        freq1[ord(ch)-ord('a')]+=1
-    for ch in t:
-        freq2[ord(ch)-ord('a')]+=1
-    return freq1==freq2
-print(isAnagram("anagram","nagaram"))
+class Solution:
+    def maxArea(height):
+        left=0
+        right=len(height)-1
+        g_area=0
+        while left<right:
+            area=min(height[left],height[right])*(right-left)
+            g_area=max(g_area,area)
+            if(height[left]<height[right]):
+                left+=1
+            elif(height[right]<height[left]):
+                right-=1
+            else:
+                left+=1
+                right-=1
+        return g_area
+    height = [1,8,6,2,5,4,8,3,7]
+    print(maxArea(height))
