@@ -1,7 +1,7 @@
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
         stack=[]
-        sum=0
+        a=0
         for i in range(len(operations)):
             if(operations[i]=='+'):
                 stack.append(stack[len(stack)-1]+stack[len(stack)-2])
@@ -13,5 +13,5 @@ class Solution:
                 stack.append(int (operations[i]))
 
         for j in range(len(stack)):
-           sum=sum+stack[j]
-        return sum
+           a=a+stack[j]
+        return a
