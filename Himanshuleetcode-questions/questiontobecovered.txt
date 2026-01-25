@@ -1,0 +1,81 @@
+704. Binary Search
+
+1. Two Sum
+
+189. Rotate Array
+
+121. Best Time to Buy and Sell Stock
+
+905. Sort Array By Parity
+
+2161. Partition Array According to Given Pivot
+
+75. Sort Colors
+
+383. Ransom Note
+
+242. Valid Anagram 
+
+49. Group Anagrams
+
+125. Valid Palindrome
+
+88. Merge Sorted Array
+
+26. Remove Duplicates from Sorted Array
+
+169. Majority Element
+
+122. Best Time to Buy and Sell Stock II
+
+11. Container With Most Water
+
+414. Third Maximum Number
+
+66. Plus One
+
+53. Maximum Subarray
+
+118. Pascal's Triangle
+
+238. Product of Array Except Self
+
+14. Longest Common Prefix
+
+205. Isomorphic Strings(hw)
+
+202. happy number(hw)
+
+217. contains duplicates I (hw)
+
+219. contains duplicates II(hw)
+
+128. longest consecutive subsequence(hw)
+
+6. zig zag conversion(hw)
+
+26. remove duplicates from sorted array(hw)
+
+20. Valid Parentheses
+
+394. Decode String
+
+735. Asteroid Collision(hw)
+
+739. Daily Temperatures(hw)
+
+844. Backspace String Compare(hw)
+
+71. Simplify Path(hw)
+
+3798. Largest Even Number
+
+3769. Sort Integers by Binary Reflection
+
+3775. Reverse Words With Same Vowel Count
+
+150. Evaluate Reverse Polish Notation
+
+2390. Removing Stars From a String
+
+739. Daily Temperatures
