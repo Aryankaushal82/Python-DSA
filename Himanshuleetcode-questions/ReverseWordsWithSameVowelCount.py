@@ -61,10 +61,10 @@ def reverseWords(s):
             if ch in vowels:
                 cnt+=1
         return cnt
-        fwc=cnt_vowel(w[0])
-        for i in range(1,len(w)):
-            if cnt_vowel(w[i])==fwc:
-                w[i]=w[i][::-1]
-        return " ".join(w)
+    fwc=cnt_vowel(w[0])
+    for i in range(1,len(w)):
+        if cnt_vowel(w[i])==fwc:
+            w[i]=w[i][::-1]
+    return " ".join(w)
 s = "cat and mice"
 print(reverseWords(s))
