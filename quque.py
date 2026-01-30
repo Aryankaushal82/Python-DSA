@@ -1,14 +1,22 @@
-from collections import deque
+stack = []
+def enqueue(queue, num):
 
-queue = deque()
-queue.append(1)
-queue.append(2)
-queue.append(3)
-queue.append(4)
-print(queue)
-print(queue.popleft())
-print(queue)
-queue.appendleft(0)
-print(queue)
-print(queue.pop())
-print(queue)
+    stack.append(num)
+
+
+
+def dequeue(queue):
+
+    return queue.pop(0)
+
+    
+
+def size(queue):
+
+    return len(queue)
+
+    
+
+def top(queue):
+
+    return queue[0]
