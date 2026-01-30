@@ -1,7 +1,7 @@
-stack = []
+queue = []
 def enqueue(queue, num):
 
-    stack.append(num)
+    queue.append(num)
 
 
 
